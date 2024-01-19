@@ -1,0 +1,43 @@
+.abacus-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.abacus-svg {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bead {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 2px 2px 2px #000;
+}
+
+.bead:hover {
+  filter: brightness(120%);
+}
+
+.toggled {
+  transform: translateX(50px); /* Adjusted for proper alignment */
+}
+/* Other styles remain the same */
+
+.right {
+  transform: translateX(45px); /* Adjusted for proper alignment */
+}
+
+.first-bead.right {
+  transform: translateX(40px); /* Specific adjustment for the first bead */
+}
+
+
+.toggled {
+  transform: translateX(40px); /* Adjust this value as needed */
+}
